@@ -27,7 +27,7 @@ display读buffer同时，buffer被修改。
 * 双缓冲技术，基本原理就是采用两块buffer。    
 一块back buffer用于CPU/GPU后台绘制，       
 另一块framebuffer则用于显示，当back buffer准备就绪后，      
-它们才进行交换。不可否认，doublebuffering可以在很大程度上，     
+它们才进行交换。不可否认，double-buffering可以在很大程度上，     
 降低screen tearing错误。
 
 ### triple-buffer
