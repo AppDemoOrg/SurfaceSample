@@ -15,7 +15,7 @@
 * TextureView：它也是继承自View，只能运行中硬件加速窗口。
 它的功能类似于SurfaceView + SurfaceTexture，它内部包含一个
 SurfaceTexture，它可以让Camera的数据和显示分离，
-比如需要做二次处理时，如Camera吧采集的数据发送给SurfaceTexture
+比如需要做二次处理时，如Camera把采集的数据发送给SurfaceTexture
 （比如做个美颜），SurfaceTexture处理后传给TextureView显示。
 TextureView可以做view的变形和动画。一般它是在主线程上做处理
 （在Android 5.0引入渲染线程后，它是在渲染线程中做的）。
